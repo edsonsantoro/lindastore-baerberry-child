@@ -1,0 +1,174 @@
+/*
+Theme Name: Barberry Child
+Theme URI: http://barberry.temashdesign.com/
+Description: This is a child theme for Barberry.
+Author: TemashDesign
+Author URI: http://temashdesign.com
+Template: barberry
+Version: 1.0
+*/
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+
+.product_summary_bottom_inner {
+	display: inline-block;
+	padding-top: 1em;
+}
+
+.woof_radio_count {
+	display: none;
+}
+
+#loco .notice { display: show !important} 
+	
+
+
+
+/****************************************************************/
+/*************** MODIFY SHARE BUTTOM ****************************/
+/****************************************************************/
+.box-share-master-container .social-sharing {
+    font-size: initial;
+    padding: 0 20px;
+}
+
+.box-share-master-container {
+    right: 0;
+    position: relative;
+    margin-bottom: 25px;
+    width: auto; 
+}
+
+.box-share-master-container a {
+    border-radius: 0;
+    width: auto;
+}
+
+.box-share-master-container a:before {
+    border-radius: 0;
+    color: #ffffff;
+}
+
+.box-share-master-container a:after {
+    color: transparent !important; 
+}
+
+body:not(.is-mobile) .box-share-master-container a:hover:after {
+    color: #ffffff !important;
+}
+
+
+
+/****************************************************************/
+/*************** FREIGHT BOX STYLES  ****************************/
+/****************************************************************/
+
+#freightGuideModal .barberry-freightguide-title {
+	border-color: #000000;
+	color: #000000;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    line-height: 1;
+    border-bottom: 3px solid;
+}
+
+#freightGuideModal {
+    max-width: 800px;
+    height: 100%;
+    padding: 0;
+}
+
+.nano2{ 
+	position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.freightguide-link a {
+    position: relative;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-left: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.freightguide-link a:before {
+    opacity: 1;
+    font-family: 'Barberry' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "";
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+#freightGuideModal .close-icon {
+    position: absolute;
+    left: auto;
+    right: 40px;
+    top: 30px;
+}
+
+.nano2 > .nano-content {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+#freightGuideModal .nano-content {
+    padding: 30px 30px;
+}
+
+.product_summary_bottom_inner_2 {
+	display: inline-block;
+	padding-top: 1em;
+}
+
+.woo-variation-swatches-stylesheet-enabled.woo-variation-swatches-style-squared .variable-items-wrapper .variable-item.button-variable-item {
+    width: min-content;
+    height: auto;
+}
+
+.woo-variation-swatches-stylesheet-enabled.woo-variation-swatches-style-squared .variable-items-wrapper .variable-item.button-variable-item .variable-item-span {
+    padding: 0 5px;
+    line-height: normal;
+}
+
+a.button-social-login.button-social-login-facebook,.widget-area a.button-social-login.button-social-login-facebook,.social-badge.social-badge-facebook{ background:#3b5998;border-color:#3b5998 }
+.si-facebook {
+    background-image: url(https://lindastore.co.jp/wp-content/plugins/woocommerce-social-login/assets/images/facebook.svg);
+}
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
